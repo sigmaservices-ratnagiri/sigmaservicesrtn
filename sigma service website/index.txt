@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma Services - Digital Solutions in Ratnagiri</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sigma Services</div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Your One-Stop Solution for Digital Services in Ratnagiri</h1>
+                <p>Fast, Reliable and Community-focused Services right here in Ratnagiri. Get your work done with Ease and Perfection</p>
+                <div class="cta-buttons">
+                    <a href="services.html" class="cta-button">View All Services</a>
+                    <a href="contact.html" class="cta-button secondary-cta">Get Directions</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <div class="container">
+                <h2>Why Choose Sigma Services?</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <img src="images/fast-reliable.svg" alt="Fast & Reliable">
+                        <h3>Fast & Reliable</h3>
+                        <p>We value your time. Our streamlined processes ensure quick and accurate service delivery.</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="images/expert-staff.svg" alt="Expert Staff">
+                        <h3>Expert Staff</h3>
+                        <p>Our knowledgeable team is here to guide you through every process with clarity and professionalism.</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="images/community-focused.svg" alt="Community-Focused">
+                        <h3>Community-Focused</h3>
+                        <p>As a local business, we are committed to serving the needs of the Ratnagiri community.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2>What Our Customers Say</h2>
+                <div class="testimonial-card">
+                    <p>"I was able to get my Aadhaar card updated in minutes. The staff was very helpful and the process was so simple!"</p>
+                    <h4>- Rajesh P.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"A great place for all bill payments. The service is quick and the staff is very friendly. Highly recommended."</p>
+                    <h4>- Smita K.</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sigma Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

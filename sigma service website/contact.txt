@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sigma Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sigma Services</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <div class="container">
+                <h1>Get in Touch</h1>
+                <p>Visit our office in Ratnagiri or contact us with any questions.</p>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <div class="container">
+                <div class="info-grid">
+                    <div class="contact-item">
+                        <h3>Our Address</h3>
+                        <p>Sigma Services<br>
+                        123, Main Road<br>
+                        Near Bus Stand<br>
+                        Ratnagiri, Maharashtra 415612</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Working Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p>Saturday: 10:00 AM - 2:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Contact Details</h3>
+                        <p>Phone: +91 98765 43210</p>
+                        <p>Email: info@sigmaservices.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2>Our Location</h2>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15214.778832049053!2d73.30064223253549!3d16.99478496495207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be748887968412b%3A0xc39f88d752f9c41a!2sRatnagiri%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1693630263592!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sigma Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

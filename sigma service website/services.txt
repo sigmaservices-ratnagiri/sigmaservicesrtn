@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Sigma Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="services-page">
+    <header>
+        <nav>
+		<div class="header-logo">
+		    <img src="logo.png" alt="Sigma Services Logo" width="72" height="40">
+		    <div class="site-title">Sigma Services</div>
+		</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+     
+        <section class="service-categories">
+            <div class="container">
+                <div class="category">
+                    <h2>Citizen</h2>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <h3 data-service="voter-id">Voter ID</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3 data-service="pan">PAN Card</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3 data-service="gazattee">Gazattee</h3>
+						</div>
+						<div class="service-item">
+                            <h3 data-service="mseb">MSEB</h3>
+						</div>
+						<div class="service-item">
+							<h3 data-service="divyang">Divyang Services</h3>
+						</div>
+						<div class="service-item">
+							<h3 data-service="ayushman-bharat">Ayushyaman Bharat</h3>
+							</div>
+						<div class="service-item">
+							<h3 data-service="farmer-id">Farmer ID</h3>
+							</div>
+						<div class="service-item">
+							<h3 data-service="senior-citizen-card">Senior Citizen card</h3>
+						</div>
+						<div class="service-item">
+							<h3 data-service="police-verification">Police Verification</h3>
+						</div>
+						<div class="service-item">
+							<h3>E-Mojani(Land Survey)</h3>
+						</div>						
+                    </div>
+                </div>
+
+			<div class="category">
+                    <h2>Business</h2>
+				<div class="service-list">
+                        <div class="service-item">
+                            <h3 data-service="shop-act">Shop & Act</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3 data-service="udyam-aadhar">Udyam Aadhar</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3 data-service="agriculture-licenses">Agriculture Licenses</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3>Food License</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3>Maharashtra State Excise</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3>Revenue Department</h3>
+                        </div>
+						<div class="service-item">
+							<h3>Society & Trust Registration</h3>
+						</div>
+						<div class="service-item">
+							<h3>Maharashtra Tourism Department</h3>
+						</div>
+						<div class="service-item">
+                            <h3>Niello & Pre-Ink Stamp</h3>
+                        </div>
+					</div>
+                </div>
+		
+			
+                <div class="category">
+                    <h2>Educational & Govt. Recruitment</h2>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <h3>Admissions</h3>
+                        </div>
+						<div class="service-item">
+							<h3>Scholorship Forms</h3>
+						</div>
+                        <div class="service-item">
+                            <h3>Govt. Recruitment Forms</h3>
+                        </div>
+						<div class="service-item">
+							<h3>Competitive Exam Books Available</h3>
+                        </div>
+						<div class="service-item">
+							<h3>Caste Validity<h3>
+						</div>
+						<div class="service-item">
+							<h3>Bar Council Sanad</h3>
+						</div>
+						<div class="service-item">
+							<h3>Pharmacy Council Registration</h3>
+						</div>
+						<div class="service-item">
+							<h3>PWD Unemployed engineer Regi.</h3>
+						</div>
+                    </div>
+                </div>
+				
+				<div class="category">
+                    <h2>Stationery & Alide Services</h2>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <h3>All types of Stationery</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3>Binding & Lamination</h3>
+                        </div>
+                    </div>
+				</div>
+				
+				<div class="category">
+                    <h2>Typing & Digital Printing</h2>
+					<div class="service-list">
+                        <div class="service-item">
+                            <h3>Copier(xerox) & Digital Printing</h3>
+                        </div>
+						<div class="service-item">
+                            <h3>Marathi & English Typing</h3>
+                        </div>
+					</div>
+				</div>
+			
+				<div class="category">
+					<h2>Pension & Labour services</h2>
+					<div class="service-list">
+						<div class="service-item">
+							<h3>EPFO</h3>
+						</div>
+						<div class="service-item">
+							<h3>Sparsh Defense pension</h3>
+						</div>
+						<div class="service-item">
+							<h3>Jeevan Praman</h3>
+						</div>
+					</div>
+				</div>
+			</div>	
+        </section>
+    </main>
+		<div id="service Modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3 id="modal-title"></h3>
+                <p id="modal-details"></p>
+            </div>
+        </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sigma Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+	<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Sigma Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="services-page">
+    <header>
+        <nav>
+		<div class="header-logo">
+		    <img src="logo.png" alt="Sigma Services Logo" width="72" height="40">
+		    <div class="site-title">Sigma Services</div>
+		</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+     
+        <section class="service-categories">
+            <div class="container">
+                <div class="category">
+                    <h2>Citizen</h2>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <h3 data-service="voter-id">Voter ID</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3 data-service="pan">PAN Card</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3 data-service="gazattee">Gazattee</h3>
+						</div>
+						<div class="service-item">
+                            <h3 data-service="mseb">MSEB</h3>
+						</div>
+						<div class="service-item">
+							<h3 data-service="swavalamban">
+							<p>Swavlamban card</p>
+							<p>(Divyang Registration)</p>
+							</h3>
+						</div>
+						<div class="service-item">
+							<h3 data-service="ayushman-bharat">Ayushyaman Bharat</h3>
+							</div>
+						<div class="service-item">
+							<h3 data-service="farmer-id">Farmer ID</h3>
+							</div>
+						<div class="service-item">
+							<h3 data-service="senior-citizen-card">Senior Citizen card</h3>
+						</div>
+						<div class="service-item">
+							<h3 data-service="police-verification">Police Verification</h3>
+						</div>
+						<div class="service-item">
+							<h3>E-Mojani(Land Survey)</h3>
+						</div>						
+                    </div>
+                </div>
+
+			<div class="category">
+                    <h2>Business</h2>
+				<div class="service-list">
+                        <div class="service-item">
+                            <h3 data-service="shop-act">Shop & Act</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3 data-service="udyam-aadhar">Udyam Aadhar</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3 data-service="agriculture-licenses">Agriculture Licenses</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3>Food License</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3>Maharashtra State Excise</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3>Revenue Department</h3>
+                        </div>
+						<div class="service-item">
+							<h3>Society & Trust Registration</h3>
+						</div>
+						<div class="service-item">
+							<h3>Maharashtra Tourism Department</h3>
+						</div>
+						<div class="service-item">
+                            <h3>Niello & Pre-Ink Stamp</h3>
+                        </div>
+					</div>
+                </div>
+		
+			
+                <div class="category">
+                    <h2>Educational & Govt. Recruitment</h2>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <h3>Admissions</h3>
+                        </div>
+						<div class="service-item">
+							<h3>Scholorship Forms</h3>
+						</div>
+                        <div class="service-item">
+                            <h3>Govt. Recruitment Forms</h3>
+                        </div>
+						<div class="service-item">
+							<h3>Competitive Exam Books Available</h3>
+                        </div>
+						<div class="service-item">
+							<h3>Caste Validity<h3>
+						</div>
+						<div class="service-item">
+							<h3>Bar Council Sanad</h3>
+						</div>
+						<div class="service-item">
+							<h3>Pharmacy Council Registration</h3>
+						</div>
+						<div class="service-item">
+							<h3>PWD Unemployed engineer Regi.</h3>
+						</div>
+                    </div>
+                </div>
+				
+				<div class="category">
+                    <h2>Stationery & Alide Services</h2>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <h3>All types of Stationery</h3>
+                        </div>
+                        <div class="service-item">
+                            <h3>Binding & Lamination</h3>
+                        </div>
+                    </div>
+				</div>
+				
+				<div class="category">
+                    <h2>Typing & Digital Printing</h2>
+					<div class="service-list">
+                        <div class="service-item">
+                            <h3>Copier(xerox) & Digital Printing</h3>
+                        </div>
+						<div class="service-item">
+                            <h3>Marathi & English Typing</h3>
+                        </div>
+					</div>
+				</div>
+			
+				<div class="category">
+					<h2>Pension & Labour services</h2>
+					<div class="service-list">
+						<div class="service-item">
+							<h3>EPFO</h3>
+						</div>
+						<div class="service-item">
+							<h3>Sparsh Defense pension</h3>
+						</div>
+						<div class="service-item">
+							<h3>Jeevan Praman</h3>
+						</div>
+					</div>
+				</div>
+			</div>	
+        </section>
+    </main>
+		<div id="service Modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3 id="modal-title"></h3>
+                <p id="modal-details"></p>
+            </div>
+        </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sigma Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+	<script src="script.js"></script>
+</body>
+</html>

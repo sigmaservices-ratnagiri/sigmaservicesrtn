@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sigma Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="about-page">
+    <header>
+        <nav>
+            <div class="logo">Sigma Services</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <div class="container">
+                <h1>Our Story</h1>
+                <p>Serving the community of Ratnagiri with dedication and excellence.</p>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <div class="container">
+                <p>Founded in 2023, Sigma Services was started with a mission to bridge the digital gap in our community. We saw a need for a reliable and friendly place where locals could get help with complex digital paperwork, from government forms to bill payments. We are proud to be a local business serving the people of Ratnagiri.</p>
+                <h3>Our Mission</h3>
+                <p>To provide accessible, efficient, and trustworthy digital services that simplify the lives of our customers and empower our community.</p>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <div class="container">
+                <h2>Meet Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="images/team-member-1.jpg" alt="Team Member 1">
+                        <h4>Jane Doe</h4>
+                        <p>Founder & Manager</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/team-member-2.jpg" alt="Team Member 2">
+                        <h4>John Smith</h4>
+                        <p>Senior Service Agent</p>
+                    </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sigma Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
